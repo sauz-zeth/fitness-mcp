@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "fitness-coach-mcp",
+  "name": "fitness-mcp",
   "main": "src/index.ts",
   "compatibility_date": "2026-07-08",
   "compatibility_flags": ["nodejs_compat"],
@@ -8,7 +8,7 @@
     {
       "binding": "DB",
       "database_name": "fitness-coach",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+      "database_id": "89ddedfa-0632-44cc-9be6-e94fca5fdaa3"
     }
   ],
   "durable_objects": {
