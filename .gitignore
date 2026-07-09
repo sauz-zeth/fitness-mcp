@@ -2,10 +2,10 @@
 .pytest_cache/
 __pycache__/
 *.py[cod]
-data/*.sqlite
-data/*.sqlite-*
-cloudflare-worker/node_modules/
-cloudflare-worker/.wrangler/
-cloudflare-worker/.dev.vars
-cloudflare-worker/Library/
-cloudflare-worker/.npm/
+python/data/*.sqlite
+python/data/*.sqlite-*
+node_modules/
+.wrangler/
+.dev.vars
+Library/
+.npm/
