@@ -1,0 +1,21 @@
+age: null
+height_cm: null
+weight_kg: null
+goals:
+  - build muscle
+  - improve strength safely
+training_experience: null
+health_limitations: []
+posture_notes: []
+available_equipment:
+  - barbell
+  - dumbbells
+  - bench
+  - pull-up bar
+training_preferences:
+  session_length_minutes: null
+  preferred_days_per_week: 3
+nutrition:
+  calories: null
+  protein_grams: null
+priority_muscle_groups: []

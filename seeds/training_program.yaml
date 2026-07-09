@@ -1,0 +1,65 @@
+name: Starter A/B/C Hypertrophy
+rules:
+  progression: double progression inside the prescribed rep range
+  rest_minutes: 2-3 for compounds, 1-2 for isolation
+days:
+  - name: A
+    exercises:
+      - name: Squat
+        order: 1
+        sets: 3
+        reps_min: 6
+        reps_max: 10
+        working_weight: 40
+      - name: Bench Press
+        order: 2
+        sets: 3
+        reps_min: 6
+        reps_max: 10
+        working_weight: 30
+      - name: Row
+        order: 3
+        sets: 3
+        reps_min: 8
+        reps_max: 12
+        working_weight: 25
+  - name: B
+    exercises:
+      - name: Deadlift
+        order: 1
+        sets: 3
+        reps_min: 5
+        reps_max: 8
+        working_weight: 50
+      - name: Overhead Press
+        order: 2
+        sets: 3
+        reps_min: 6
+        reps_max: 10
+        working_weight: 20
+      - name: Lat Pulldown
+        order: 3
+        sets: 3
+        reps_min: 8
+        reps_max: 12
+        working_weight: 35
+  - name: C
+    exercises:
+      - name: Romanian Deadlift
+        order: 1
+        sets: 3
+        reps_min: 8
+        reps_max: 12
+        working_weight: 35
+      - name: Incline Dumbbell Press
+        order: 2
+        sets: 3
+        reps_min: 8
+        reps_max: 12
+        working_weight: 16
+      - name: Split Squat
+        order: 3
+        sets: 3
+        reps_min: 8
+        reps_max: 12
+        working_weight: 12
